@@ -8,7 +8,7 @@
         "$PASSWORD"
     ],
     "websocket": {
-        "enabled": false,
+        "enabled": true,
         "path": "/",
         "host": ""
     }
