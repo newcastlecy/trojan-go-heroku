@@ -1,0 +1,14 @@
+{
+    "name": "trojan-go-heroku",
+    "description": "deploy v2ray tor on heroku",
+    "keywords": ["trojan"],
+    "env": {
+        "PASSWORD": {
+            "description": "trojan password",
+            "value": "password"        
+        }
+    },
+    "website": "https://starts.sh",
+    "repository": "https://github.com/starts-sh/trojan-go-heroku",
+    "stack": "container"
+}
