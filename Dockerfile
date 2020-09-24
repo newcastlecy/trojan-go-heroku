@@ -10,7 +10,7 @@ RUN apk add git make &&\
 FROM alpine
 WORKDIR /
 COPY --from=builder /trojan-go/build /usr/local/bin/
-COPY --from=builder /trojan-go/example/server.json /etc/trojan-go/config.json
+COPY ./config.json /etc/trojan-go/config.json
 
 ENTRYPOINT ["/usr/local/bin/trojan-go", "-config"]
 CMD ["/etc/trojan-go/config.json"]
