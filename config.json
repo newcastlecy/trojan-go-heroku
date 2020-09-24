@@ -9,7 +9,7 @@
     ],
     "websocket": {
         "enabled": false,
-        "path": "",
+        "path": "/",
         "host": ""
     }
 }
